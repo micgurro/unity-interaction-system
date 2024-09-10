@@ -2,7 +2,7 @@
 System for having players interact with other objects when interaction point triggers colliders with objects that are interactable.
 
 
-IInteractable - Interface for tagging an object as Interactable
+IInteractable - Interface for tagging an object as Interactable and the required methods for starting, exiting, and handling Interactable objects.
 
 Interactor - Attaches to player and uses a trigger collider overlap with objects that implement the Interactable interface; used for starting and stopping interactions.
 
