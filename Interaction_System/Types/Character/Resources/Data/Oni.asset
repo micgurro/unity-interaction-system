@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbd2b4fb2eb06744a8ff34a5e674957, type: 3}
+  m_Name: Oni
+  m_EditorClassIdentifier: 
+  ID: -1
+  ActorName: Oni
+  Description: This is the static male oni character
+  Sprite: {fileID: 0}
+  ActorPrefab: {fileID: 0}
+  messages:
+  - actorID: 0
+    message: Hello
+  - actorID: 1
+    message: Hi there
+  actors:
+  - name: Player
+    sprite: {fileID: 0}
+  - name: Oni
+    sprite: {fileID: 0}
